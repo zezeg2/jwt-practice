@@ -1,4 +1,4 @@
-package com.example.jwt.config;
+package com.example.jwt.properties;
 
 public interface JwtProperties {
     String SECRET = "jby";

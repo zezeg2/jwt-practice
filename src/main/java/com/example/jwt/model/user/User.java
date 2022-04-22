@@ -1,4 +1,4 @@
-package com.example.jwt.model;
+package com.example.jwt.model.user;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

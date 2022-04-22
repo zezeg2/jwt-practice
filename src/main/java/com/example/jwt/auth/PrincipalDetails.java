@@ -1,12 +1,14 @@
 package com.example.jwt.auth;
 
-import com.example.jwt.model.User;
+import com.example.jwt.model.user.User;
+import lombok.Getter;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
 import java.util.ArrayList;
 import java.util.Collection;
 
+@Getter
 public class PrincipalDetails implements UserDetails {
 
     private User user;
